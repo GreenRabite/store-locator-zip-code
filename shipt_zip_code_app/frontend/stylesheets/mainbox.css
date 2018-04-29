@@ -1,0 +1,131 @@
+#mainbox{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#target-container{
+  min-width: 1080px;
+  min-height: 422px;
+  background-color: #930819;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+#target-container > div{
+  padding: 15px;
+}
+
+#target-container > div:first-child{
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+
+#target-container > div:nth-child(2){
+  font-size: 24px;
+  font-weight: 400;
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: 0.55px;
+}
+
+#target-container > div:last-child{
+  font-size: 10px;
+  max-width: 400px;
+  margin: 0 auto
+}
+
+#search {
+  display: flex;
+  justify-content: space-around;
+}
+
+#location{
+  position: relative;
+}
+
+#location img{
+  width: 25px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+#search input{
+  height: 60px;
+  width: 250px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  text-indent: 50px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: 'Scandia';
+  border-radius: 4px 0 0 4px;
+}
+
+.gs-btn{
+  height: 60px;
+  padding: 0;
+  width: 150px;
+  border-radius: 0 4px 4px 0;
+}
+
+#search-btn{
+  display: flex;
+}
+
+#error-msg{
+  text-transform: uppercase;
+  color: #CF000F;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+}
+
+.error{
+  color: #CF000F;
+}
+
+/* DeliveryBox CSS*/
+#deliverybox{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+#db-header{
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 13px;
+}
+
+.store-items{
+  display: flex;
+}
+
+.store-items > div{
+  padding: 10px;
+  text-align: center;
+}
+
+.db-store-name{
+  font-size: 28px;
+  letter-spacing: 0.5px;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.db-avail{
+  font-size: 13px;
+  font-style: italic;
+  letter-spacing: 1.5px;
+}

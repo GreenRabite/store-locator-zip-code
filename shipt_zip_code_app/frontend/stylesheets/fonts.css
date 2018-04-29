@@ -1,0 +1,14 @@
+@font-face{
+  font-family: 'Scandia';
+  src: url('./font/Scandia-Regular.otf'),
+}
+
+@font-face{
+  font-family: 'Scandia-Bold';
+  src: url('./font/Scandia-Bold.otf');
+  font-weight: bold;
+}
+
+* {
+    font-family: 'Scandia';
+  }
