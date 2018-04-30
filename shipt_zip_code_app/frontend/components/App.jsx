@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from './navbar/nav_bar';
 import MainForm from './main/main_form';
+import BottomSection from './main/bottom_section';
 
 const App = () => {
   return (
@@ -8,8 +9,9 @@ const App = () => {
       <header>
         <NavBar/>
       </header>
-      <div className="main-body">
+      <div>
         <MainForm/>
+        <BottomSection/>
       </div>
     </div>
   );

@@ -97,6 +97,10 @@ var _main_form = __webpack_require__(/*! ./main/main_form */ "./frontend/compone
 
 var _main_form2 = _interopRequireDefault(_main_form);
 
+var _bottom_section = __webpack_require__(/*! ./main/bottom_section */ "./frontend/components/main/bottom_section.jsx");
+
+var _bottom_section2 = _interopRequireDefault(_bottom_section);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var App = function App() {
@@ -110,13 +114,112 @@ var App = function App() {
     ),
     _react2.default.createElement(
       'div',
-      { className: 'main-body' },
-      _react2.default.createElement(_main_form2.default, null)
+      null,
+      _react2.default.createElement(_main_form2.default, null),
+      _react2.default.createElement(_bottom_section2.default, null)
     )
   );
 };
 
 exports.default = App;
+
+/***/ }),
+
+/***/ "./frontend/components/main/bottom_section.jsx":
+/*!*****************************************************!*\
+  !*** ./frontend/components/main/bottom_section.jsx ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var BottomSection = function BottomSection() {
+  return _react2.default.createElement(
+    "div",
+    { id: "bottom-section" },
+    _react2.default.createElement(
+      "div",
+      null,
+      "Everything you love about Target at your fingertips."
+    ),
+    _react2.default.createElement(
+      "div",
+      null,
+      _react2.default.createElement(
+        "div",
+        { id: "splash-images" },
+        _react2.default.createElement(
+          "div",
+          null,
+          _react2.default.createElement("img", { src: "./images/splash-bs1.png" }),
+          _react2.default.createElement(
+            "h3",
+            null,
+            "Scroll through the aisles."
+          ),
+          _react2.default.createElement(
+            "p",
+            null,
+            "Create an order from your local store in our app or on our website."
+          )
+        ),
+        _react2.default.createElement(
+          "div",
+          null,
+          _react2.default.createElement("img", { src: "./images/splash-bs2.png" }),
+          _react2.default.createElement(
+            "h3",
+            null,
+            "Our shoppers work their magic."
+          ),
+          _react2.default.createElement(
+            "p",
+            null,
+            "Connect with your shopper and get live updates from the aisles."
+          )
+        ),
+        _react2.default.createElement(
+          "div",
+          null,
+          _react2.default.createElement("img", { src: "./images/splash-bs3.png" }),
+          _react2.default.createElement(
+            "h3",
+            null,
+            "We deliver your groceries."
+          ),
+          _react2.default.createElement(
+            "p",
+            null,
+            "Schedule a delivery, and your order will arrive in as soon as 1 hour."
+          )
+        )
+      )
+    ),
+    _react2.default.createElement(
+      "div",
+      null,
+      _react2.default.createElement(
+        "button",
+        { className: "green-temp btn-btm" },
+        "Get Started"
+      )
+    )
+  );
+};
+
+exports.default = BottomSection;
 
 /***/ }),
 
@@ -182,6 +285,15 @@ var DeliveryBox = function DeliveryBox(_ref) {
           "div",
           { className: "store-items" },
           StoreItems
+        ),
+        _react2.default.createElement(
+          "div",
+          null,
+          _react2.default.createElement(
+            "button",
+            { className: "green-temp btn-stores" },
+            "Get Started"
+          )
         )
       )
     );

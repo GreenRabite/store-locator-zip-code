@@ -11,9 +11,9 @@
 
 .navbar-dark p {
   text-transform: uppercase;
-  font-family: 'Scandia';
+  font-family: 'Scandia-Bold';
   color: white;
-  font-style: italic;
+  font-size: 18px;
   letter-spacing: 1.5px;
 }
 

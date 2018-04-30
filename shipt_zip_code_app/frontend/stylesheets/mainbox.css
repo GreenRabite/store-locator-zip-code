@@ -18,28 +18,30 @@
 }
 
 #target-container > div{
-  padding: 15px;
+  padding: 5px;
 }
 
 #target-container > div:first-child{
-  font-size: 48px;
-  font-style: italic;
-  font-weight: 500;
-  letter-spacing: 1.5px;
+  font-size: 50px;
+  font-family: 'Scandia-Bold';
+  font-weight: 450;
+  letter-spacing: 0.5px;
 }
 
 #target-container > div:nth-child(2){
   font-size: 24px;
-  font-weight: 400;
-  max-width: 400px;
+  font-weight: 300;
+  max-width: 450px;
   text-align: center;
   margin: 0 auto;
-  letter-spacing: 0.55px;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 #target-container > div:last-child{
-  font-size: 10px;
-  max-width: 400px;
+  font-size: 14px;
+  letter-spacing: 0.05px;
+  max-width: 650px;
   margin: 0 auto
 }
 
@@ -68,8 +70,9 @@
   padding: 0;
   margin: 0;
   border: 0;
-  font-family: 'Scandia';
+  font-family: 'Scandia-Bold';
   border-radius: 4px 0 0 4px;
+  margin-bottom: 20px;
 }
 
 .gs-btn{
@@ -101,31 +104,38 @@
   margin-top: 20px;
 }
 
+#deliverybox > div > div:last-child{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
 #db-header{
   text-align: center;
   text-transform: uppercase;
-  font-style: italic;
-  font-size: 13px;
+  font-family: 'Scandia-Bold';
+  font-size: 18px;
 }
 
 .store-items{
   display: flex;
+  margin-bottom: 25px;
 }
 
 .store-items > div{
-  padding: 10px;
+  padding: 15px;
   text-align: center;
 }
 
 .db-store-name{
-  font-size: 28px;
+  font-size: 40px;
   letter-spacing: 0.5px;
-  font-style: italic;
+  font-family: 'Scandia-Bold';
   margin-bottom: 30px;
 }
 
 .db-avail{
-  font-size: 13px;
+  font-size: 18px;
   font-style: italic;
   letter-spacing: 1.5px;
 }

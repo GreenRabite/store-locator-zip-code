@@ -22,6 +22,7 @@ const DeliveryBox = ({stores})=>{
           <div className="store-items">
             {StoreItems}
           </div>
+          <div><button className="green-temp btn-stores">Get Started</button></div>
         </div>
       </div>
     );
