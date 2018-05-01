@@ -20,7 +20,11 @@ This is a web application that can be used to locate a store using a zipcode inp
 * Babel
 
 ## File Structure
-* All files can be found in the `frontend` folder
+* Main `index.html` file can be found in the `root` directory.
+* Javascript files are "hooked" in by `ReactDOM` from special div id `root` tag selector
+* React components can be found under `frontend/components`. React components are transpile with `Babel` and compiled in a large `.js` file called `bundle.js` by `Webpack`. This is link near the bottom of the page to load the files asynchronously.
+* React components are separated into different folder. These are the following: `navbar`, `main` section, and the `footer`.
+* Stylesheets are loaded/imported into `main.css`. This file is link into `index.html`.
 
 ## Screenshots/GIFs
 
