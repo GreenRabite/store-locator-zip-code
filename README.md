@@ -2,6 +2,8 @@
 
 Store Locater - [Live Site Here](https://greenrabite.github.io/store-locator-zip-code/#/)
 
+![Shipt]()
+
 ## How to View The Site
 1. Live Site Can be Reached [Here](https://greenrabite.github.io/store-locator-zip-code/#/)
   * Input one of the following zip codes for seed data: `35203`, `98001`, `99515`
