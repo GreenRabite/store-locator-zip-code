@@ -2,7 +2,7 @@
 
 Store Locater - [Live Site Here](https://greenrabite.github.io/store-locator-zip-code/#/)
 
-![Shipt]()
+![Shipt](https://github.com/GreenRabite/store-locator-zip-code/blob/master/images/screenshot.png?raw=true)
 
 ## How to View The Site
 1. Live Site Can be Reached [Here](https://greenrabite.github.io/store-locator-zip-code/#/)
