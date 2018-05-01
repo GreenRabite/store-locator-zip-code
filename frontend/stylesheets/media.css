@@ -24,6 +24,10 @@
     height: 75px;
   }
 
+  #mainbox{
+    margin-top: 0;
+  }
+
   #logos a img{
     height: 70px;
   }
