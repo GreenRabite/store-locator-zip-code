@@ -82,8 +82,9 @@ class MainForm extends React.Component{
   }
 
   render(){
-    let errorMsg = <p id="error-msg">"This zipcode is invalid! Please try again."</p>;
+    let errorMsg = <p id="error-msg">This zipcode is invalid! Please try again.</p>;
     let locationImg = this.state.error ? <img src="./images/location2.svg"></img> : <img src="./images/location.svg"></img>;
+    let exclamPt = this.state.error ? <img align="right" src="./images/exclam-point.png"></img> : "";
     return(
       <div id="state-container">
         <div id="mainbox">
@@ -100,6 +101,7 @@ class MainForm extends React.Component{
                       placeholder="Enter ZIP code"
                       onChange={this.handleUpdate("zipcode")}
                       value={this.state.zipcode} />
+                    {exclamPt}
                   </div>
                   <button onClick={(e)=>this.handleSubmit(e)} className="green-temp gs-btn">Get Started</button>
                 </div>

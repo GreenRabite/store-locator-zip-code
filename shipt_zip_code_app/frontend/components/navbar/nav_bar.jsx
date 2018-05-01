@@ -6,8 +6,10 @@ const NavBar = () => {
     <nav className="navbar">
       <nav className="navbar-dark"><p>Get $50 + $15 Credit*</p></nav>
       <nav className="navbar-white">
-        <img src="./images/logo.jpg"></img>
-        <button className="green-temp btn">Sign Up</button>
+        <div id="logos">
+          <img src="./images/logo.jpg"></img>
+          <button className="green-temp btn">Sign Up</button>
+        </div>
       </nav>
     </nav>
   );

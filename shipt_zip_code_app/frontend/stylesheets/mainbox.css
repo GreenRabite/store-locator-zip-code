@@ -9,7 +9,7 @@
 #target-container{
   min-width: 1080px;
   min-height: 422px;
-  background-color: #930819;
+  background: url("../../images/bg.png");
   color: white;
   display: flex;
   flex-direction: column;
@@ -22,7 +22,7 @@
 }
 
 #target-container > div:first-child{
-  font-size: 50px;
+  font-size: 45px;
   font-family: 'Scandia-Bold';
   font-weight: 450;
   letter-spacing: 0.5px;
@@ -42,7 +42,8 @@
   font-size: 14px;
   letter-spacing: 0.05px;
   max-width: 650px;
-  margin: 0 auto
+  margin: 0 auto;
+  line-height: 1.2;
 }
 
 #search {
@@ -54,11 +55,19 @@
   position: relative;
 }
 
-#location img{
+#location > img{
   width: 25px;
   position: absolute;
+}
+
+#location > img:first-child{
   top: 15px;
   left: 15px;
+}
+
+#location > img:nth-child(3){
+  top: 15px;
+  right: 15px;
 }
 
 #search input{
@@ -72,7 +81,7 @@
   border: 0;
   font-family: 'Scandia-Bold';
   border-radius: 4px 0 0 4px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .gs-btn{
@@ -88,7 +97,7 @@
 
 #error-msg{
   text-transform: uppercase;
-  color: #CF000F;
+  color: #EF7C42;
   font-size: 14px;
   letter-spacing: 1.5px;
 }
@@ -101,7 +110,7 @@
 #deliverybox{
   display: flex;
   justify-content: space-around;
-  margin-top: 20px;
+  margin-top: 18px;
 }
 
 #deliverybox > div > div:last-child{
@@ -128,10 +137,10 @@
 }
 
 .db-store-name{
-  font-size: 40px;
+  font-size: 35px;
   letter-spacing: 0.5px;
   font-family: 'Scandia-Bold';
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .db-avail{

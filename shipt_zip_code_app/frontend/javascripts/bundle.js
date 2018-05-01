@@ -101,6 +101,10 @@ var _bottom_section = __webpack_require__(/*! ./main/bottom_section */ "./fronte
 
 var _bottom_section2 = _interopRequireDefault(_bottom_section);
 
+var _footer = __webpack_require__(/*! ./footer/footer */ "./frontend/components/footer/footer.jsx");
+
+var _footer2 = _interopRequireDefault(_footer);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var App = function App() {
@@ -117,11 +121,52 @@ var App = function App() {
       null,
       _react2.default.createElement(_main_form2.default, null),
       _react2.default.createElement(_bottom_section2.default, null)
+    ),
+    _react2.default.createElement(
+      'footer',
+      null,
+      _react2.default.createElement(_footer2.default, null)
     )
   );
 };
 
 exports.default = App;
+
+/***/ }),
+
+/***/ "./frontend/components/footer/footer.jsx":
+/*!***********************************************!*\
+  !*** ./frontend/components/footer/footer.jsx ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Footer = function Footer() {
+  return _react2.default.createElement(
+    "div",
+    { id: "footer" },
+    _react2.default.createElement(
+      "p",
+      null,
+      "\xA9 2018 Shipt, Inc. and its services are not necessarily affiliated or endorsed by the retailers on this site."
+    )
+  );
+};
+
+exports.default = Footer;
 
 /***/ }),
 
@@ -441,9 +486,10 @@ var MainForm = function (_React$Component) {
       var errorMsg = _react2.default.createElement(
         'p',
         { id: 'error-msg' },
-        '"This zipcode is invalid! Please try again."'
+        'This zipcode is invalid! Please try again.'
       );
       var locationImg = this.state.error ? _react2.default.createElement('img', { src: './images/location2.svg' }) : _react2.default.createElement('img', { src: './images/location.svg' });
+      var exclamPt = this.state.error ? _react2.default.createElement('img', { align: 'right', src: './images/exclam-point.png' }) : "";
       return _react2.default.createElement(
         'div',
         { id: 'state-container' },
@@ -480,7 +526,8 @@ var MainForm = function (_React$Component) {
                       className: this.state.error ? "error" : "",
                       placeholder: 'Enter ZIP code',
                       onChange: this.handleUpdate("zipcode"),
-                      value: this.state.zipcode })
+                      value: this.state.zipcode }),
+                    exclamPt
                   ),
                   _react2.default.createElement(
                     'button',
@@ -550,11 +597,15 @@ var NavBar = function NavBar() {
     _react2.default.createElement(
       'nav',
       { className: 'navbar-white' },
-      _react2.default.createElement('img', { src: './images/logo.jpg' }),
       _react2.default.createElement(
-        'button',
-        { className: 'green-temp btn' },
-        'Sign Up'
+        'div',
+        { id: 'logos' },
+        _react2.default.createElement('img', { src: './images/logo.jpg' }),
+        _react2.default.createElement(
+          'button',
+          { className: 'green-temp btn' },
+          'Sign Up'
+        )
       )
     )
   );
