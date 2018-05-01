@@ -17,7 +17,6 @@ class MainForm extends React.Component{
   // Handles state update from inputting in the zip code
   handleUpdate(field){
     return (e) => {
-      console.log(e.target.value);
       this.setState({
         [field]: e.target.value
       });
@@ -31,7 +30,6 @@ class MainForm extends React.Component{
   handleSubmit(e){
     e.preventDefault();
     this.setState({error: false});
-    console.log(this.state.zipcode);
     fetch(`https://shipt-zip-code-test-api.herokuapp.com/api/zip_codes/${this.state.zipcode}`)
     .then(function(response){
       return response.json();
@@ -59,7 +57,6 @@ class MainForm extends React.Component{
     const sortedStores = res.stores.sort((a,b)=>{
       return a.name > b.name ? 1 : -1;
     });
-    console.log(sortedStores);
     let parseStores = [];
     sortedStores.forEach(store=>{
       let date = new Date(store.launch_date);
