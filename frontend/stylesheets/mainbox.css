@@ -44,6 +44,7 @@
   max-width: 650px;
   margin: 0 auto;
   line-height: 1.2;
+  margin-top: 15px;
 }
 
 #search {
@@ -123,7 +124,7 @@
   text-align: center;
   text-transform: uppercase;
   font-family: 'Scandia-Bold';
-  font-size: 18px;
+  font-size: 11px;
 }
 
 .store-items{
@@ -137,14 +138,14 @@
 }
 
 .db-store-name{
-  font-size: 35px;
+  font-size: 28px;
   letter-spacing: 0.5px;
   font-family: 'Scandia-Bold';
   margin-bottom: 20px;
 }
 
 .db-avail{
-  font-size: 18px;
+  font-size: 11px;
   font-style: italic;
   letter-spacing: 1.5px;
 }

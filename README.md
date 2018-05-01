@@ -19,6 +19,9 @@ This is a web application that can be used to locate a store using a zipcode inp
 * Webpack
 * Babel
 
+## File Structure
+* All files can be found in the `frontend` folder
+
 ## Screenshots/GIFs
 
 ### Invalid Zipcode Flow

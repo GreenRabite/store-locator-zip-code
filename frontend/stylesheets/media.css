@@ -16,6 +16,18 @@
     min-width: 300px;
   }
 
+  .navbar-dark{
+    height: 31px;
+  }
+
+  .navbar-white{
+    height: 75px;
+  }
+
+  #logos a img{
+    height: 70px;
+  }
+
   #search-btn {
     display: flex;
     flex-direction: column;
@@ -32,12 +44,9 @@
     margin-bottom: 10px;
   }
 
-  #bottom-section{
-    display: none;
-  }
-
-  #footer{
-    display: none;
+  #splash-images{
+    display: flex;
+    flex-direction: column;
   }
 
   .btn {

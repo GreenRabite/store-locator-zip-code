@@ -1,11 +1,12 @@
 #bottom-section > div:first-child{
-  font-size: 42px;
+  font-size: 36px;
   font-family: 'Scandia-Bold';
   letter-spacing: 0.53px;
   max-width: 600px;
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 #bottom-section > div:nth-child(2){
@@ -42,7 +43,7 @@
 }
 
 #splash-images p{
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: -0.5px;
   text-align: center;
   max-width: 300px;

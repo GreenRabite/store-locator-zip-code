@@ -9,11 +9,17 @@
   align-items: center;
 }
 
+.navbar-dark:hover{
+  background-color: #669933;
+  transition-timing-function: ease-in;
+  transition: 0.5s;
+}
+
 .navbar-dark p {
   text-transform: uppercase;
   font-family: 'Scandia-Bold';
   color: white;
-  font-size: 18px;
+  font-size: 11px;
   letter-spacing: 1.5px;
 }
 
@@ -33,8 +39,8 @@
   margin: 0 auto;
 }
 
-#logos img{
-  height: 100%;
+#logos a img{
+  height: 80px;
 }
 
 .green-temp{
