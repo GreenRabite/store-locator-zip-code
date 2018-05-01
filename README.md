@@ -20,3 +20,12 @@ This is a web application that can be used to locate a store using a zipcode inp
 * Babel
 
 ## Screenshots/GIFs
+
+### Invalid Zipcode Flow
+![InvalidZipcodeFlow](https://github.com/GreenRabite/store-locator-zip-code/blob/master/images/gifs/invalid-zipcode.gif?raw=true)
+
+### Valid Zipcode Flow
+![ValidZipcodeFlow](https://raw.githubusercontent.com/GreenRabite/store-locator-zip-code/master/images/gifs/valid-zipcode.gif)
+
+### Mobile Responsiveness Flow
+![Mobile Responsiveness](https://github.com/GreenRabite/store-locator-zip-code/blob/master/images/gifs/mobile-response.gif?raw=true)
